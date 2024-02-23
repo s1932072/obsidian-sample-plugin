@@ -6,3 +6,23 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+.view-content {
+    margin: 0;
+    background-image: url("http://localhost:1010/obsidian%20%E5%A3%81%E7%B4%99/night/output_10s.gif");
+    background-repeat: repeat; /* 画像をタイル状に繰り返し表示 */
+    background-size: 240px 426px; /* タイルのサイズを50px × 50px に指定 */
+    filter: saturate(0.7); /* 彩度を下げる */
+    filter: brightness(0.8); /* 明度を下げる */
+  }
+  
+  body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://localhost:1010/obsidian%20%E5%A3%81%E7%B4%99/night/output_10s.gif");
+    background-repeat: repeat; /* 画像をタイル状に繰り返し表示 */
+    background-size: 240px 426px; /* タイルのサイズを50px × 50px に指定 */
+    filter: saturate(0.7); /* 彩度を下げる */
+    filter: brightness(0.8 ); /* 明度を下げる */
+  }
+  
